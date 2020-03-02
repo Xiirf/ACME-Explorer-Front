@@ -20,7 +20,7 @@ export class ActorService {
         const url = `${this.backendApiBaseURL}/v1/actors/${id}`;
         return this.http.get<Actor>(url).toPromise();
     }
-
+    /*
     updateProfile(actor: Actor) {
         const url = `${this.backendApiBaseURL}/v2/actors/${actor._id}`;
 
@@ -40,5 +40,5 @@ export class ActorService {
                     resolve(res);
                 }, err => { console.log(err); reject(err); });
         });
-    }
+    }*/
 }

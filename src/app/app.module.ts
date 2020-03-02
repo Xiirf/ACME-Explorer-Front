@@ -17,13 +17,13 @@ import { ActorService } from './services/actor.service';
 
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyDq2JQ1sFsFNyfV9Lysu01JTs7jADPimsY',
-  authDomain: 'acmesupermarketauth.firebaseapp.com',
-  databaseURL: 'https://acmesupermarketauth.firebaseio.com',
-  projectId: 'acmesupermarketauth',
-  storageBucket: 'acmesupermarketauth.appspot.com',
-  messagingSenderId: '471879775257',
-  appId: "1:471879775257:web:0241d1e26e5b84ccf86688"
+  apiKey: "AIzaSyB0EgBnaWpzta6H9njH88am1Xi6ppdiliA",
+  authDomain: "acme-explorer-6415d.firebaseapp.com",
+  databaseURL: "https://acme-explorer-6415d.firebaseio.com",
+  projectId: "acme-explorer-6415d",
+  storageBucket: "acme-explorer-6415d.appspot.com",
+  messagingSenderId: "835813245079",
+  appId: "1:835813245079:web:99a4ed6bb7c2f7e5c7e9d2"
 };
 
 @NgModule({
