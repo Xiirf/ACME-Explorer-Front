@@ -53,9 +53,9 @@ export class EditProfileComponent implements OnInit {
     this.actor.surname = formModel.surname;
 
     this.authService.getCurrentActor().then(actor => {
-      this.actorService.updateProfile(this.actor).then((val) => {
+      /*this.actorService.updateProfile(this.actor).then((val) => {
         this.errorMessage = 'Profile successfully updated for actor with id: ' + this.actor._id;
-      }).catch((err) => { this.errorMessage = err.statusText; console.error(err); });
+      }).catch((err) => { this.errorMessage = err.statusText; console.error(err); });*/
     });
 
   }
