@@ -34,7 +34,7 @@ export class ActorService {
             this.http.put(url, body,   {
                 headers: new HttpHeaders({
                   'Content-Type': 'application/json',
-                  'idtoken': actor.idToken
+                  'authorization': actor.idToken
                 })}).toPromise()
                 .then(res => {
                     resolve(res);
