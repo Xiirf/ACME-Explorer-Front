@@ -40,7 +40,7 @@ export class LoginComponent {
   }
 
   onclick() {
-    this.router.navigate(['/profile/edit']);
+    this.router.navigate(['/profile/edit'], { queryParams: { lang: 'en-US' } });
   }
 }
 
