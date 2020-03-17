@@ -47,15 +47,17 @@ export class EditProfileComponent implements OnInit {
   }
 
   onSubmit() {
+    console.log("fsdf")
     const formModel = this.profileForm.value;
 
     this.actor.name = formModel.name;
     this.actor.surname = formModel.surname;
 
     this.authService.getCurrentActor().then(actor => {
-      /*this.actorService.updateProfile(this.actor).then((val) => {
+      this.actorService.updateProfile(this.actor).then((val) => {
+        console.log(val)
         this.errorMessage = 'Profile successfully updated for actor with id: ' + this.actor._id;
-      }).catch((err) => { this.errorMessage = err.statusText; console.error(err); });*/
+      }).catch((err) => { this.errorMessage = err.statusText; console.error(err); });
     });
 
   }
