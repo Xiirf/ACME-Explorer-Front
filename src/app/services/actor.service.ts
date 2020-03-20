@@ -8,7 +8,7 @@ import { AuthService } from './auth.service';
 @Injectable()
 export class ActorService {
 
-    DEFAULT_LANG = "en-US";
+    DEFAULT_LANG = 'en-US';
     lang: string;
     token: String;
     userRole: string;
